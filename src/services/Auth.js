@@ -34,7 +34,7 @@ export const login = async (email, password) => {
   }
 };
 
-export const signin = async (
+export const signup = async (
   firstName,
   lastName,
   email,
@@ -42,7 +42,7 @@ export const signin = async (
   confirmPassword
 ) => {
   try {
-    const response = await api.post("/signin", {
+    const response = await api.post("/signup", {
       firstName,
       lastName,
       email,
