@@ -86,6 +86,7 @@ const Signup = () => {
         </div>
         <input
           type="submit"
+          value={"Sign up"}
           className="p-3 bg-primary text-Background cursor-pointer font-semibold rounded active:bg-primary/60"
         />
         <div>

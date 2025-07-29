@@ -71,7 +71,7 @@ const Navbar = () => {
                 Log in
               </Link>
               <Link
-                to={"signin"}
+                to={"signup"}
                 className="px-3 py-2 rounded bg-primary text-Background cursor-pointer active:bg-primary/60"
               >
                 Sign up

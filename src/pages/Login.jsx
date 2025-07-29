@@ -69,6 +69,7 @@ const Login = () => {
         </div>
         <input
           type="submit"
+          value={"Login"}
           className="p-3 bg-primary text-Background cursor-pointer font-semibold rounded active:bg-primary/60"
         />
 
