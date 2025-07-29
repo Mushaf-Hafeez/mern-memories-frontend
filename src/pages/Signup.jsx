@@ -33,7 +33,7 @@ const Signup = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="w-full md:w-[40%] p-5 flex flex-col gap-4 bg-secondary/20 text-primary rounded"
       >
-        <h1 className="text-2xl font-semibold text-center">Signin Form</h1>
+        <h1 className="text-2xl font-semibold text-center">Signup Form</h1>
         <div className="flex flex-col gap-2">
           <label htmlFor="firstName">First Name</label>
           <input
