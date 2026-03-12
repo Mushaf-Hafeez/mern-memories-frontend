@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import { signup } from "../services/Auth";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ const Signup = () => {
       data.lastName,
       data.email,
       data.password,
-      data.confirmPassword
+      data.confirmPassword,
     );
     if (response.success == true) {
       reset();
